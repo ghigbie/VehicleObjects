@@ -25,7 +25,7 @@ public class Vehicle {
 
     }
 
-    public static void changeDirection(String steeringDirection){
+    public void changeDirection(String steeringDirection){
         steeringDirection = steeringDirection.toLowerCase();
         if(steeringDirection == "right" || steeringDirection == "left") {
             System.out.println("This vehicle is turning to " + steeringDirection + ".");
@@ -34,7 +34,7 @@ public class Vehicle {
         }
     }
 
-    public static void moveFast(){
+    public void moveFast(){
         System.out.println("This vehicle is moving fast!");
     }
 

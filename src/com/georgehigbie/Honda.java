@@ -11,6 +11,17 @@ public class Honda extends Car {
 
     @Override
     public void move(int movingSpeed) {
+        System.out.println("This Honda is moving at " +movingSpeed + "mph.");
         super.move(movingSpeed);
+    }
+
+    @Override
+    public void changeDirection(String steeringDirection) {
+        super.changeDirection(steeringDirection);
+    }
+
+    @Override
+    public void moveFast() {
+        System.out.println("This Honda is moving fast!");
     }
 }
