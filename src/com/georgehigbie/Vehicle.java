@@ -17,7 +17,7 @@ public class Vehicle {
         this.movingSpeedOptimum = movingSpeedOptimum;
     }
 
-    public void move(int movingSpeed){
+    public static void move(int movingSpeed){
         System.out.println("This vehicle is moving at " + movingSpeed + "mph.");
         if(movingSpeed >= 65){
             moveFast();
@@ -25,7 +25,7 @@ public class Vehicle {
 
     }
 
-    public void changeDirection(String steeringDirection){
+    public static void changeDirection(String steeringDirection){
         steeringDirection = steeringDirection.toLowerCase();
         if(steeringDirection == "right" || steeringDirection == "left") {
             System.out.println("This vehicle is turning to " + steeringDirection + ".");
@@ -34,7 +34,7 @@ public class Vehicle {
         }
     }
 
-    public void moveFast(){
+    public static void moveFast(){
         System.out.println("This vehicle is moving fast!");
     }
 

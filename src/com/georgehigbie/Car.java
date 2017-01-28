@@ -10,7 +10,7 @@ public class Car extends Vehicle {
     }
 
     @Override
-    public void move(int movingSpeed) {
+    public static void move(int movingSpeed) {
         System.out.println("This car is moving at " + movingSpeed + "mph.");
         super.move(movingSpeed);
     }
