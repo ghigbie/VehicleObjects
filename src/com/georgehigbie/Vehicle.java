@@ -17,7 +17,7 @@ public class Vehicle {
         this.movingSpeedOptimum = movingSpeedOptimum;
     }
 
-    public static void move(int movingSpeed){
+    public void move(int movingSpeed){
         System.out.println("This vehicle is moving at " + movingSpeed + "mph.");
         if(movingSpeed >= 65){
             moveFast();
