@@ -35,7 +35,7 @@ public class Vehicle {
     }
 
     public void moveFast(){
-
+        System.out.println("This vehicle is moving fast!");
     }
 
 }
