@@ -17,7 +17,14 @@ public class Car extends Vehicle {
         super.move(movingSpeed);
     }
 
+    @Override
+    public void changeDirection(String steeringDirection) {
+        super.changeDirection(steeringDirection);
+    }
 
-
+    @Override
+    public void moveFast() {
+        super.moveFast();
+    }
 
 }
