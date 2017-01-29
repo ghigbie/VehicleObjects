@@ -5,8 +5,8 @@ package com.georgehigbie;
  */
 public class Honda extends Car {
 
-    public Honda(String steering, int currentGear, int movingSpeedMax, int movingSpeedOptimum) {
-        super(steering, currentGear, movingSpeedMax, movingSpeedOptimum);
+    public Honda(String name, String steering, int currentGear, int movingSpeedMax, int movingSpeedOptimum) {
+        super(name, steering, currentGear, movingSpeedMax, movingSpeedOptimum);
     }
 
     @Override

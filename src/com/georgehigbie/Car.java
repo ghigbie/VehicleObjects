@@ -4,9 +4,13 @@ package com.georgehigbie;
  * Created by georgehigbie on 1/28/17.
  */
 public class Car extends Vehicle {
+    private String make;
+    private String model;
 
-    public Car(String steering, int currentGear, int movingSpeedMax, int movingSpeedOptimum) {
-        super(steering, currentGear, movingSpeedMax, movingSpeedOptimum);
+    public Car(String name, String make, String model, String steering, int currentGear, int movingSpeedMax, int movingSpeedOptimum) {
+        super("car", steering, currentGear, movingSpeedMax, movingSpeedOptimum);
+        this.make = make;
+        this.model = model;
     }
 
 

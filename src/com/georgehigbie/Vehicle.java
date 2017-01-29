@@ -4,13 +4,14 @@ package com.georgehigbie;
  * Created by georgehigbie on 1/28/17.
  */
 public class Vehicle {
-
+    private String name;
     private String steering;
     private int currentGear;
     private int movingSpeedMax;
     private int movingSpeedOptimum;
 
-    public Vehicle(String steering, int currentGear, int movingSpeedMax, int movingSpeedOptimum){
+    public Vehicle(String name, String steering, int currentGear, int movingSpeedMax, int movingSpeedOptimum){
+        this.name = name;
         this.steering = steering;
         this.currentGear = currentGear;
         this.movingSpeedMax = movingSpeedMax;
